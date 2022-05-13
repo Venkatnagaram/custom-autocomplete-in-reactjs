@@ -1,0 +1,113 @@
+.auto-area{
+  width: 400px;
+  margin: 100px auto 0px auto; 
+  position: relative;
+}
+.searchResults{
+  display: flex;
+  padding-left: 40px;
+  color: #000;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  cursor:  pointer;
+  display: none;
+  visibility: visible;
+}
+
+.searchiInput{
+  width: 400px;
+}
+.searchiInput input{
+  padding-right: 50px;
+}
+.dropDownBtn{
+  width: 20px !important;;
+  height: 54px !important;;
+  padding: 17px 15px 17px 15px !important;;
+  background-color: #eee !important;;
+  z-index: 1 !important;;
+  position: absolute !important;
+  right: 0px !important;;
+  border-bottom-right-radius: 3px !important;;
+  border-top-right-radius: 3px !important;;
+  top:1px !important;;
+  right: 1px !important;;
+}
+.dropDownBtn img {
+  width: 70%;
+}
+.input-formats-area, .searchResultsArea{
+  width: 350px;
+  height: 200px;
+  border: 1px solid #eee;
+  overflow-y: scroll;
+}
+.searchResultsArea .searchResults p{
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  color: #444;
+}
+.searchResultsArea .searchResults:hover{
+  background-color: rgb(255, 248, 239);
+}
+.input-formats-area-hide{
+  display: none;
+  visibility: hidden;
+}
+.input-formats-area .input-formats-area-group p{
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 0px;
+  margin: 0px;
+  line-height: 40px;
+  color: #666;
+  padding-left: 15px;
+  /* border-bottom: 1px solid #ccc; */
+}
+.input-formats-area .input-formats-area-group div {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  color: #444;
+  padding-left: 25px;
+}
+.input-formats-area .input-formats-area-group div:hover{
+  background-color: rgb(255, 248, 239);
+}
+.searchResults{
+  display: flex;
+  padding-left: 40px;
+  color: #222;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.display-hide{
+  display: none;
+  visibility: hidden;
+}
+.removeFormatClass{
+  width: 16px !important;
+  height: 16px !important;
+  cursor: pointer !important;
+  position: absolute !important;
+  right: 70px !important;
+  padding: 6px !important;
+  top: 15px !important;
+  opacity: 0.5 !important;
+  display: block !important;
+  visibility: visible !important;
+}
+.removeFormatClass:hover{
+  opacity: 1;
+}
+.removeFormatClass img {
+  width: 100%;
+}
